@@ -4,9 +4,9 @@
   "description": "",
   "main": "stack.js",
   "scripts": {
-    "start": "nodemon stack.js",
-    "dev": "nodemon queue.js"
-
+    "stack": "nodemon stack.js",
+    "queue": "nodemon queue.js",
+    "linked": "nodemon linked.js"
   },
   "author": "",
   "license": "MIT",

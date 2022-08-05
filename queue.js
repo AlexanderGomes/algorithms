@@ -218,6 +218,6 @@ function palindromeChecker(aString) {
 }
 
 
-console.log('casas', palindromeChecker('asa'))
+console.log(palindromeChecker('asa'))
 
 
