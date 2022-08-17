@@ -187,12 +187,15 @@ class DoublyLinkedList extends LinkedList {
         node.prev = current; // {7}
         this.tail = node; // {8}
       } else {
+
         const previous = this.getElementAt(index - 1); // {9}
         current = previous.next; // {10}
+
         node.next = current; // {11}
+        node.prev = previous; // {14} NEW
+
         previous.next = node; // {12}
         current.prev = node; // {13} NEW
-        node.prev = previous; // {14} NEW
       }
       this.count++;
       return true;
@@ -227,17 +230,41 @@ class DoublyLinkedList extends LinkedList {
       this.count--;
       return current.element;
     }
-    return undefined;
+    return true;
   }
 }
 
 const double = new DoublyLinkedList();
-double.push(1);
-double.push(2);
-double.push(3);
-double.push(4);
+list.push(15);
+console.log('list.toString() => ', list.toString());
+list.push(16);
+console.log('list.toString() => ', list.toString());
+list.push(17);
+console.log('list.toString() => ', list.toString());
+console.log('insert element 13 pos 0 => ', list.insert(13, 0));
+console.log('list.toString() => ', list.toString());
+console.log('insert element 18 pos 4 => ', list.insert(18, 4));
+console.log('list.toString() => ', list.toString());
+console.log('list.removeAt(0) => ', list.removeAt(3));
+console.log('list.toString() => ', list.toString());
+console.log('list.removeAt(list.size() - 1) => ', list.removeAt(list.size() - 1));
+console.log('list.toString() => ', list.toString());
+console.log('index of element => ', list.indexOf(15));
+console.log('head => ', list.getHead());
+console.log('insert element 18 pos 4 => ', list.insert(4, 3));
+console.log('list.toString() => ', list.toString()); 
 
-console.log(double.getElementAt(0));
+
+
+
+
+
+
+
+
+
+
+
 
 // // // Circular Linked List // // //
 
@@ -299,3 +326,7 @@ class CircularLinkedList extends LinkedList {
     return undefined;
   }
 }
+
+
+
+ 
