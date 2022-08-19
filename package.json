@@ -8,7 +8,8 @@
     "queue": "nodemon queue.js",
     "linked": "nodemon linked.js",
     "double": "nodemon doublyLinked.js",
-    "dictionary": "nodemon dictionary.js"
+    "dictionary": "nodemon dictionary.js",
+    "hash": "nodemon hash.js"
   },
   "author": "",
   "license": "MIT",
