@@ -9,7 +9,8 @@
     "linked": "nodemon linked.js",
     "double": "nodemon doublyLinked.js",
     "dictionary": "nodemon dictionary.js",
-    "hash": "nodemon hash.js"
+    "hash": "nodemon hash.js",
+    "hash2": "nodemon hashComplete.js"
   },
   "author": "",
   "license": "MIT",
