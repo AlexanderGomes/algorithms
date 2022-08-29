@@ -4,13 +4,19 @@
   "description": "",
   "main": "stack.js",
   "scripts": {
-    "stack": "nodemon stack.js",
-    "queue": "nodemon queue.js",
-    "linked": "nodemon linked.js",
-    "double": "nodemon doublyLinked.js",
-    "dictionary": "nodemon dictionary.js",
-    "hash": "nodemon hash.js",
-    "hash2": "nodemon hashComplete.js"
+    "1": "nodemon stack.js",
+    "2": "nodemon queue.js",
+    "3": "nodemon linked.js",
+    "4": "nodemon doublyLinked.js",
+    "5": "nodemon dictionary.js",
+    "6": "nodemon hash.js",
+    "7": "nodemon hashComplete.js",
+    "8": "nodemon bst.js",
+    "9": "nodemon avl.js",
+    "10": "nodemon redTree.js"
+
+
+    
   },
   "author": "",
   "license": "MIT",

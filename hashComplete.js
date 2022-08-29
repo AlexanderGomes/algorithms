@@ -287,5 +287,5 @@ function defaultEquals(a, b) {
   hashs.put("sander", "gomes@email.com");
   hashs.put("Tyrion", "tyrion@email.com");
 
-  console.log(hashs.get("Tyrion"))
+
   console.log(hashs.toString());
